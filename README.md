@@ -1,5 +1,6 @@
 # ohmycoins
 See how many coins you have and how much they value with data from many sources.
+### 注意，这个repo是后端，需要配合[前端](https://github.com/seven777777/hackathon-onmycoins)使用
 
 # Dorahacks 2018 上海 黑客松 梭哈老头队作品
 
