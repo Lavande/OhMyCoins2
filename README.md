@@ -14,6 +14,7 @@ See how many coins you have and how much they value with data from many sources.
 - 资产统计：根据提供的地址去etherscan查询余额，通过API查询交易所账户的余额，最后到Coinmarketcap查询所有币种当前CNY价格，最后前端生成图表，展示网页；
 - 币价与开发进度相关性分析：爬取最近200+天项目github的commit数，以及币安上对应按日的币价，计算皮尔森相关性系数并展示图表；
 - 词云：爬取金色财金最近几千条新闻的标题与摘要，分词后生成词云。
+注：后面两条相关的数据由比赛当天爬取（2018.05.19），已经保存在repo相关文件里，并非运行时动态爬取。
 
 ### 用法
 首先安装依赖，前端通过npm，后端通过pip3，然后分别运行：
